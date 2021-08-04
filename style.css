@@ -1,0 +1,59 @@
+
+input [type="text"]
+{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+input[type="submit"]
+{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.xyz
+{
+    color:orangered;
+    
+    font-size:14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-style: solid;
+     border-width: 2px;
+     border-color: blue;
+     padding: 8px;
+
+
+}
+h1{
+    color:green;
+    
+    font-size:14px;
+    font-family: inherit;
+    
+}
+ p{
+     color:red;
+     background-color:light greenyellow;
+     font-size :14px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+ }
+ p>a {
+     color:indianred;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+ }
+ 
+ b{
+     color: green;
+     font-family: monospace;
+     
+ }
+ a{
+     color: lawngreen;
+     line-height: 14px;
+ }
+ *{
+     box-sizing: border-box;
+ }
